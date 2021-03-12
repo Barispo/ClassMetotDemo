@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ClassMetotDemo
 {
@@ -17,7 +16,7 @@ namespace ClassMetotDemo
             musteriler.Add(musteri);
             Console.WriteLine("Müşteri Eklenmiştir  : " + musteri.Adi + " " + musteri.Soyadi);
         }
-        
+
         public void Sil(Musteri musteri)
         {
             musteriler.Remove(musteri);
